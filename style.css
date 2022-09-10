@@ -9,7 +9,12 @@ font-family: 'Raleway', sans-serif;*/
 }
  
 body {
-  background-color:#F9F7FE ;
+ 
+  font-family: var(--secondary-font);
+}
+
+.homepage_upper_part {
+ background-color:#F9F7FE;
 }
 
 h1,
@@ -28,16 +33,14 @@ h1 {
 
 h2 {
   font-size: 36px;
-  font-family: var(--secondary-font);
   color: #272142;
   font-weight: bold;
- 
+  font-family: var(--main-font);
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.8;
-  font-family: var(--secondary-font);
   font-weight: bold;
 }
 
@@ -65,8 +68,7 @@ button  {
 a {
    margin: 20px;
    font-weight: bold;
-   font-family: var(--secondary-font);
-}
+  }
 
 button:hover {
   background-color: #d4cef6;
@@ -77,6 +79,21 @@ button:hover {
 .portfolio_home {
   padding: 160px 20px;
 }
+ 
+p {
+  font-size: 18px;
+  }
+
+  .bg_image {
+    background-color: #F9F7FE;
+  }
+
+  .application_app {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+    
+  }
 
 
 
