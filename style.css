@@ -102,7 +102,7 @@ p {
     text-align: left;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
     body, .title, .learn_more {
       text-align: center;
     }
@@ -114,9 +114,6 @@ p {
   .homepage_upper_part {
     padding: 50px 20px;
   }
-
- 
-
 
   }
 
