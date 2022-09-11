@@ -44,7 +44,7 @@ h3 {
 }
 
 .button {
- margin: 50px;
+ margin: 50px 0;
  text-align: center;
 
 }
@@ -114,6 +114,7 @@ p {
   .homepage_upper_part {
     padding: 50px 20px;
   }
+
 
   }
 
