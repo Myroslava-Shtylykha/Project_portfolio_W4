@@ -3,16 +3,13 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 
 :root {
-  --main-font: 'Playfair Display', serif;
-  --secondary-font: 'Quicksand', sans-serif;
-
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Quicksand", sans-serif;
 }
- 
+
 body {
- 
   font-family: var(--secondary-font);
 }
-
 
 h1,
 h2,
@@ -27,7 +24,6 @@ h1 {
   font-family: var(--main-font);
   color: #24272a;
   padding: 20px;
-
 }
 
 h2 {
@@ -44,36 +40,33 @@ h3 {
 }
 
 .button {
- margin: 50px 0;
- text-align: center;
-
+  margin: 50px 0;
+  text-align: center;
 }
 
-button  {
-  background-color: #FFFFFF;
+button {
+  background-color: #ffffff;
   border-radius: 30px;
   border-style: none;
-  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-shadow: #adcfff 0 -12px 6px inset;
   color: #000000;
   cursor: pointer;
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
   text-align: center;
-  transition: all .15s; 
-  
+  transition: all 0.15s;
 }
 
 a {
-   margin: 20px;
-   font-weight: bold;
-  }
+  font-weight: bold;
+}
 
 button:hover {
   background-color: #d4cef6;
   box-shadow: #e7c8f9 0 -6px 8px inset;
   transform: scale(1.1);
-} 
+}
 
 .learn_more {
   text-align: left;
@@ -81,92 +74,64 @@ button:hover {
 
 .homepage_upper_part {
   padding: 160px 20px;
-  background-color:#F9F7FE;
+  background-color: #f9f7fe;
 }
- 
+
 p {
   font-size: 18px;
-  }
+}
 
-  .bg_image {
-    background-color: #F9F7FE;
-  }
+.bg_image {
+  background-color: #f9f7fe;
+}
 
-  .application_app {
-    font-size: 16px;
-    line-height: 30px;
-    opacity: 0.8;
-  }
+.application_app {
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.8;
+}
 
-  .title {
-    text-align: left;
-  }
-  
-  @media (max-width: 900px) {
-    body, .title, .learn_more {
-      text-align: center;
-    }
+.title {
+  text-align: left;
+}
 
-    h1 {
-    font-size: 45px;
-  }
+.title_about_name {
+  font-size: 62px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 90px;
+}
 
-  .homepage_upper_part {
-    padding: 50px 20px;
-  }
+.title_about_referral {
+  text-align: left;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 19px;
+}
 
+.section_about {
+  padding: 150px 20px;
+  max-width: 720px;
+}
 
-  }
+.my_foto {
+  border-radius: 15px;
+  width: 450px;
+  margin-left: 60px;
+}
 
-
-
-
-
-
-
-
-
-/*
-@media (max-width: 576px ) {
-  body {
+@media (max-width: 900px) {
+  body,
+  .title,
+  .learn_more {
     text-align: center;
-    font-size: 20px;
-    max-width: 576px;
   }
 
   h1 {
     font-size: 45px;
   }
 
-  h2 {
-    font-size: 25px;
-    margin: 10px;
-    text-align: center;
+  .homepage_upper_part {
+    padding: 50px 20px;
   }
-
-  h3 {
-    font-size: 20px;
-     padding: 15px;
-     
-  }
-
-  .title_app {
-    text-align: center;
-  }
-
-  .container {
-    text-align: center;
-  }
-
-  .about_me_page {
-    font-size: 45px;
-  }
-
-  .launch_links {
-    text-align: center;
-    
-  }
-  }
-
-/*
-
+}
