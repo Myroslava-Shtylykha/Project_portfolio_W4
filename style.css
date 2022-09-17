@@ -74,7 +74,7 @@ button:hover {
 
 .homepage_upper_part {
   padding: 160px 20px;
-  background-color: #f9f7fe;
+  background-color: #ececfb;
 }
 
 p {
@@ -126,7 +126,44 @@ p {
   margin-left: 60px;
 }
 
-@media (max-width: 900px) {
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 30px;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+line-height: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #24272A;
+  opacity: 0.9;
+}
+
+nav a:hover {
+  color: #816cf7;
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  color: #816cf7;
+}
+
+
+@media (max-width: 770px) {
   body,
   .title,
   .learn_more {
@@ -139,5 +176,9 @@ p {
 
   .homepage_upper_part {
     padding: 50px 20px;
+  }
+
+  nav a {
+    font-size: 13px;
   }
 }
