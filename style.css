@@ -98,12 +98,12 @@ p {
   line-height: 90px;
 }
 
-.title_project  {
-  color: #24272A;
+.title_project {
+  color: #24272a;
   opacity: 1;
   font-family: var(--main-font);
+  text-align: left;
 }
-
 
 .title_about_referral {
   text-align: left;
@@ -135,9 +135,9 @@ nav {
 }
 
 nav ul {
-padding: 0;
-margin: 0;
-line-height: 40px;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
 }
 
 nav li {
@@ -149,7 +149,7 @@ nav li {
 nav a {
   text-decoration: none;
   font-weight: 500;
-  color: #24272A;
+  color: #24272a;
   opacity: 0.9;
 }
 
@@ -166,20 +166,20 @@ footer {
   margin: 50px 0;
 }
 
-footer .mail_link  {
-  color: #24272A;
+footer .mail_link {
+  color: #24272a;
   text-decoration: none;
   font-size: 22px;
 }
 
 footer .mail_link:hover {
- color: #816cf7;
+  color: #816cf7;
 }
 
 footer .icons a {
   margin: 20px 15px;
   color: #816cf7;
-  background: #F9F7FE;
+  background: #f9f7fe;
   border-radius: 50%;
   padding: 10px;
   font-size: 18px;
@@ -189,11 +189,10 @@ footer .icons a {
 footer .icons a:hover {
   color: #ececfb;
   background: #816cf7;
- 
 }
 
 footer .contact_container {
-  background: #F9F7FE;
+  background: #f9f7fe;
   padding: 30px 100px;
   margin-bottom: 50px;
   border-radius: 15px;
@@ -204,12 +203,11 @@ footer .contact_container p {
 }
 
 footer .contact_title {
-   font-family: var(--main-font);
-   font-size: 45px;
-   font-weight: bold;
-   margin: 0;
+  font-family: var(--main-font);
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
 }
-
 
 @media (max-width: 770px) {
   body,
@@ -226,12 +224,23 @@ footer .contact_title {
     padding: 50px 20px;
   }
 
+  .my_foto {
+    margin: 40px 0;
+  }
+
   nav a {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   footer .contact_title {
     font-size: 25px;
   }
 
+  .section_content {
+    padding: 0 20px;
+  }
+
+  .title_project {
+    text-align: center;
+  }
 }
