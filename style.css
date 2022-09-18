@@ -162,6 +162,54 @@ nav li.active a {
   color: #816cf7;
 }
 
+footer {
+  margin: 50px 0;
+}
+
+footer .mail_link  {
+  color: #24272A;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+footer .mail_link:hover {
+ color: #816cf7;
+}
+
+footer .icons a {
+  margin: 20px 15px;
+  color: #816cf7;
+  background: #F9F7FE;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .icons a:hover {
+  color: #ececfb;
+  background: #816cf7;
+ 
+}
+
+footer .contact_container {
+  background: #F9F7FE;
+  padding: 30px 100px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+footer .contact_container p {
+  margin: 15px 0;
+}
+
+footer .contact_title {
+   font-family: var(--main-font);
+   font-size: 45px;
+   font-weight: bold;
+   margin: 0;
+}
+
 
 @media (max-width: 770px) {
   body,
@@ -181,4 +229,9 @@ nav li.active a {
   nav a {
     font-size: 13px;
   }
+
+  footer .contact_title {
+    font-size: 25px;
+  }
+
 }
