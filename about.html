@@ -8,6 +8,7 @@
       name="description"
       content="The main thing is about Myroslava Shtylykha, applications made, professional and high-quality training in SheCodes"
     />
+    <title>About front-end developer Myroslava Shtylykha</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&family=Quicksand:wght@300;400;500&
     family=Raleway:ital,wght@0,400;1,300&display=swap"
@@ -24,10 +25,32 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <title>About Front-end developer Myroslava Shtylykha</title>
      <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+ <div class="container">
+     <nav class="d-flex justify-content-between">
+      <a href="/" title="Homepage" >
+      <img src="images/logo.png" class="logo d-none d-md-block" alt="Myroslava logo">
+      <img src="images/logo_small.jpg" class="logo d-block d-md-none" alt="Myroslava logo">
+      </a> 
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a> 
+        </li>
+        <li class="active">
+          <a href="about.html" title="About Myroslava">About</a> 
+        </li>
+        <li>
+          <a href="work.html" title="Myroslava's Work">Work</a> 
+        </li>
+        <li>
+          <a href="contact.html" title="Contact Myroslava">Contact</a> 
+        </li>
+      </ul>
+     </nav>
+    </div>
+
     <div class="container section_content">
       <div class="row">
         <div class="col-lg-6">
@@ -46,14 +69,49 @@
           </p>
 
           <div class="button_about mt-5 ms-0">
-            <a href="#" title=""><button>See my projects</button></a>
+            <a href="/work.html" title=""><button>See my projects</button></a>
           </div>
           </div>
            <div class="col-lg-6">
-          <img src="images/myfoto1.jpg" alt="" class="img-fluid my_foto" />
+          <img src="images/myfoto1.jpg" alt="Foto Myroslava Shtylykha" class="img-fluid my_foto" />
            </div>
         </div>
       </div>
+
+    <footer class="container">
+    <div class="contact_container d-flex justify-content-between d-none d-md-flex">
+      <div class="work_box">
+      <h4 class="contact_title">
+        Work Inquiry
+      </h4>
+      <p class="text-muted fw-bold">
+        Let's work together!
+      </p>
+      </div>
+          <div class="button_about">
+            <a href="/contact.html" title="Contact with Myroslava Shtylykha"><button>Contact me</button></a>
+          </div>
     </div>
+    <div class="d-flex justify-content-center">
+     <a href="mailto:mirunja@gmail.com" class="mail_link" title="Email Myroslava">mirunja@gmail.com</a>
+    </div>
+    <div class="icons d-flex justify-content-center">
+     <a href="https://www.instagram.com/mirunja_mira" title="Instagram profile Myroslava" target="_blank">
+      <i class="fa-brands fa-instagram p-2"></i>
+    </a>
+
+    <a href="https://github.com/Myroslava-Shtylykha" title="Github profile Myroslava" target="_blank"> 
+      <i class="fa-brands fa-github p-2"></i>
+    </a>
+
+    <a href="https://www.facebook.com/mirunja/" title="Facebook profile Myroslava"target="_blank"> 
+      <i class="fa-brands fa-facebook p-2"></i>
+    </a>
+    </div>
+    <p class="text-muted fs-6 text text-center">
+      This project was coded Myroslava Shtylykha, it is
+      <a href="https://github.com/Myroslava-Shtylykha/Project_portfolio_W4" target="_blank">open sourced</a>
+    </p>
+   </footer>
   </body>
 </html>
